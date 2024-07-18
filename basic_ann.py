@@ -16,7 +16,7 @@ from torch.optim.lr_scheduler import StepLR
 import matplotlib.pyplot as plt
 
 
-input_path = "C:/Users/dh206356/Downloads/diabetes.csv"
+input_path = "diabetes.csv"
 print(input_path)
 data = pd.read_csv(input_path)
 data.head(2)
